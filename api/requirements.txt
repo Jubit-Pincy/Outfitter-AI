@@ -1,0 +1,16 @@
+# The Outfitter AI HTTP service.
+#
+# The heavy half of this list is what the notebook already needed: torch,
+# transformers, rembg and scikit-learn are only imported when a photo is
+# actually tagged, so the API starts and serves outfits without them.
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.9
+pandas
+requests
+python-dotenv
+
+# Auto-tagging only (outfitter/tagging.py). Install from the notebook's own
+# requirements.txt if you want Florence-2; everything else works without them.
+#   torch, torchvision, transformers, rembg[gpu], scikit-learn, scikit-image,
+#   numpy, Pillow, einops, timm

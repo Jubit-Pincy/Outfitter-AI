@@ -1,0 +1,49 @@
+# Secrets. Every one of these holds a live credential — check `git status`
+# before the first commit rather than trusting this file alone.
+notebook/.env
+notebook/credentials.json
+notebook/token.json
+notebook/APIKEyOpenWeatherMap.txt
+
+# The backup notebook has the OpenWeather key typed into it, where the real
+# notebook reads it from .env. Nothing needs the backup.
+*.ipynb.bak
+*.bak
+
+.env
+.env.*
+!.env.example
+
+# Accounts and wardrobes: real scrypt password hashes.
+api/data/
+
+# Dependencies and build output.
+node_modules/
+.next/
+out/
+.vercel/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Wardrobe photographs. These are somebody's actual clothes, so they stay on
+# the machine they were taken on and out of the repository.
+#
+# `Images/items.json` is kept: it is the tagger's output and documents the tag
+# schema. The seed loader skips any item whose photo is not on disk, so a fresh
+# clone simply starts with an empty wardrobe and fills it through Add item.
+notebook/Images/uploads/
+
+# Working notes: the full setup guide, with absolute paths from the machine it
+# was written on. README.md is the one meant for other people.
+NOTES.md
+
+# A Windows-only convenience wrapper around the two commands in the README.
+start.ps1
+
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+*.log
+.ipynb_checkpoints/

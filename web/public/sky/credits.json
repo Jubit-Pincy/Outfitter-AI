@@ -1,0 +1,42 @@
+{
+ "clear-day": {
+  "title": "Cumulus humilis clouds (38786085925).jpg",
+  "focus": "center",
+  "width": 6016,
+  "license": "CC BY 2.0",
+  "author": "LiCheng Shih",
+  "source": "https://commons.wikimedia.org/wiki/File:Cumulus_humilis_clouds_%2838786085925%29.jpg"
+ },
+ "clear-night": {
+  "title": "Milky Way, Jupiter, and night sky over Queen Valley (50836084491).jpg",
+  "focus": "top",
+  "width": 7680,
+  "license": "Public domain",
+  "author": "Joshua Tree National Park",
+  "source": "https://commons.wikimedia.org/wiki/File:Milky_Way%2C_Jupiter%2C_and_night_sky_over_Queen_Valley_%2850836084491%29.jpg"
+ },
+ "cloudy": {
+  "title": "Altocumulus and cumulus over G\u00e5seberg.jpg",
+  "focus": "top",
+  "width": 5095,
+  "license": "CC BY-SA 4.0",
+  "author": "W.carter",
+  "source": "https://commons.wikimedia.org/wiki/File:Altocumulus_and_cumulus_over_G%C3%A5seberg.jpg"
+ },
+ "rain": {
+  "title": "Nimbostratus pannus.jpg",
+  "focus": "top",
+  "width": 5664,
+  "license": "CC BY-SA 4.0",
+  "author": "GerritR",
+  "source": "https://commons.wikimedia.org/wiki/File:Nimbostratus_pannus.jpg"
+ },
+ "storm": {
+  "title": "Cumulonimbus stormcloud.jpg",
+  "focus": "top",
+  "width": 7680,
+  "license": "CC BY-SA 4.0",
+  "author": "Loncoin",
+  "source": "https://commons.wikimedia.org/wiki/File:Cumulonimbus_stormcloud.jpg"
+ }
+}

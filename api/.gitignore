@@ -1,0 +1,5 @@
+# Accounts, wardrobes and schedules — real password hashes live here.
+data/
+.env
+__pycache__/
+*.pyc

@@ -1,0 +1,26 @@
+# PyTorch CUDA 12.x/13.x index (GPU builds)
+# For a CPU-only machine, swap cu130 -> cpu and drop the +cu130 pins below.
+--extra-index-url https://download.pytorch.org/whl/cu130
+
+# Core Machine Learning & Vision (Python 3.13 requires PyTorch 2.5+)
+torch==2.14.0+cu130
+torchvision==0.29.0+cu130
+transformers==4.49.0
+scikit-learn
+rembg[gpu]
+scikit-image
+numpy
+matplotlib
+
+# Image Processing (Pillow 11.0+ is recommended for Python 3.13)
+Pillow>=11.0.0
+
+# Additional requested packages
+ipywidgets
+pandas
+requests
+python-dotenv
+
+# Required by Florence-2 models when trust_remote_code=True
+einops
+timm
